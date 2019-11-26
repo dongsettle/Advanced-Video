@@ -7,25 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0772B0552017316B00C542B7 /* AgoraRtcEngineKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0772B0542017316B00C542B7 /* AgoraRtcEngineKit.framework */; };
 		0772B06320173E8600C542B7 /* CallCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0772B06220173E8600C542B7 /* CallCenter.swift */; };
-		0772B11E2018379E00C542B7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0772B11D2018379E00C542B7 /* AVFoundation.framework */; };
-		0772B120201837A500C542B7 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0772B11F201837A500C542B7 /* VideoToolbox.framework */; };
-		0772B124201837C900C542B7 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0772B123201837C900C542B7 /* libstdc++.tbd */; };
-		0772B126201837D300C542B7 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0772B125201837D300C542B7 /* CoreTelephony.framework */; };
-		0772B128201837DC00C542B7 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0772B127201837DC00C542B7 /* libresolv.tbd */; };
-		0772B12A2018387800C542B7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0772B1292018387800C542B7 /* SystemConfiguration.framework */; };
 		077ACAB12010886500212563 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077ACAB02010886500212563 /* AppDelegate.swift */; };
 		077ACAB62010886500212563 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 077ACAB42010886500212563 /* Main.storyboard */; };
 		077ACAB82010886500212563 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 077ACAB72010886500212563 /* Assets.xcassets */; };
 		077ACABB2010886500212563 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 077ACAB92010886500212563 /* LaunchScreen.storyboard */; };
 		077ACB132011CEE500212563 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077ACB122011CEE500212563 /* ViewController.swift */; };
-		3802EF20225CBFC80065A2E1 /* CoreML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3802EF1F225CBFC70065A2E1 /* CoreML.framework */; };
-		A730EEFC20FC7533003174AD /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A730EEFB20FC7533003174AD /* Accelerate.framework */; };
+		78323050238D44E200188F39 /* AgoraRtcKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7832304E238D44AA00188F39 /* AgoraRtcKit.framework */; };
+		78323051238D44E200188F39 /* AgoraRtcKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7832304E238D44AA00188F39 /* AgoraRtcKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		78323052238D44E200188F39 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				78323051238D44E200188F39 /* AgoraRtcKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		0772B0542017316B00C542B7 /* AgoraRtcEngineKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AgoraRtcEngineKit.framework; sourceTree = "<group>"; };
 		0772B06220173E8600C542B7 /* CallCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallCenter.swift; sourceTree = "<group>"; };
 		0772B11D2018379E00C542B7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		0772B11F201837A500C542B7 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
@@ -43,6 +49,7 @@
 		077ACABC2010886500212563 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		077ACB122011CEE500212563 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3802EF1F225CBFC70065A2E1 /* CoreML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreML.framework; path = System/Library/Frameworks/CoreML.framework; sourceTree = SDKROOT; };
+		7832304E238D44AA00188F39 /* AgoraRtcKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AgoraRtcKit.framework; path = AgoraRTCWithCallKit/AgoraRtcKit.framework; sourceTree = "<group>"; };
 		A730EEFB20FC7533003174AD /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -51,15 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3802EF20225CBFC80065A2E1 /* CoreML.framework in Frameworks */,
-				A730EEFC20FC7533003174AD /* Accelerate.framework in Frameworks */,
-				0772B12A2018387800C542B7 /* SystemConfiguration.framework in Frameworks */,
-				0772B128201837DC00C542B7 /* libresolv.tbd in Frameworks */,
-				0772B126201837D300C542B7 /* CoreTelephony.framework in Frameworks */,
-				0772B124201837C900C542B7 /* libstdc++.tbd in Frameworks */,
-				0772B120201837A500C542B7 /* VideoToolbox.framework in Frameworks */,
-				0772B11E2018379E00C542B7 /* AVFoundation.framework in Frameworks */,
-				0772B0552017316B00C542B7 /* AgoraRtcEngineKit.framework in Frameworks */,
+				78323050238D44E200188F39 /* AgoraRtcKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +68,7 @@
 		0772B11C2018379E00C542B7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7832304E238D44AA00188F39 /* AgoraRtcKit.framework */,
 				3802EF1F225CBFC70065A2E1 /* CoreML.framework */,
 				A730EEFB20FC7533003174AD /* Accelerate.framework */,
 				0772B1292018387800C542B7 /* SystemConfiguration.framework */,
@@ -107,7 +107,6 @@
 				0772B06220173E8600C542B7 /* CallCenter.swift */,
 				077ACAB02010886500212563 /* AppDelegate.swift */,
 				077ACAB42010886500212563 /* Main.storyboard */,
-				0772B0542017316B00C542B7 /* AgoraRtcEngineKit.framework */,
 				077ACAB72010886500212563 /* Assets.xcassets */,
 				077ACAB92010886500212563 /* LaunchScreen.storyboard */,
 				077ACABC2010886500212563 /* Info.plist */,
@@ -125,6 +124,7 @@
 				077ACAA92010886500212563 /* Sources */,
 				077ACAAA2010886500212563 /* Frameworks */,
 				077ACAAB2010886500212563 /* Resources */,
+				78323052238D44E200188F39 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -147,7 +147,7 @@
 				TargetAttributes = {
 					077ACAAC2010886500212563 = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -335,8 +335,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = SW3CA7M752;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -347,6 +347,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.agora.AgoraRTCWithCallKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = AgoraAppsDevProfile;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -356,8 +357,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = SW3CA7M752;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -368,6 +369,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.agora.AgoraRTCWithCallKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = AgoraAppsDevProfile;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
