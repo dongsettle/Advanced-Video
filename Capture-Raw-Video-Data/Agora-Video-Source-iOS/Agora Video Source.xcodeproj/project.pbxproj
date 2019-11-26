@@ -13,20 +13,25 @@
 		074526F21E9CAB040054D2D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 074526F01E9CAB040054D2D4 /* LaunchScreen.storyboard */; };
 		074526FC1E9CAD550054D2D4 /* AppID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074526FA1E9CAD550054D2D4 /* AppID.swift */; };
 		074526FD1E9CAD550054D2D4 /* VideoChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074526FB1E9CAD550054D2D4 /* VideoChatViewController.swift */; };
-		074526FF1E9CAE2A0054D2D4 /* AgoraRtcEngineKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074526FE1E9CAE2A0054D2D4 /* AgoraRtcEngineKit.framework */; };
-		074527061E9CAE8E0054D2D4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074527051E9CAE8E0054D2D4 /* AVFoundation.framework */; };
-		074527081E9CAE920054D2D4 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074527071E9CAE920054D2D4 /* VideoToolbox.framework */; };
-		0745270A1E9CAE980054D2D4 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 074527091E9CAE980054D2D4 /* libresolv.tbd */; };
-		0745270C1E9CAE9D0054D2D4 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0745270B1E9CAE9D0054D2D4 /* AudioToolbox.framework */; };
-		0745270E1E9CAEA50054D2D4 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0745270D1E9CAEA50054D2D4 /* CoreTelephony.framework */; };
-		074527101E9CAEA90054D2D4 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0745270F1E9CAEA90054D2D4 /* CoreMedia.framework */; };
-		074527121E9CAEB10054D2D4 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 074527111E9CAEB10054D2D4 /* libc++.tbd */; };
 		074527151E9CB2FE0054D2D4 /* MyVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074527141E9CB2FE0054D2D4 /* MyVideoView.swift */; };
 		074527171E9CB43D0054D2D4 /* MyVideoCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074527161E9CB43D0054D2D4 /* MyVideoCapture.swift */; };
-		0F2747CC1FB45944005D3DBA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F2747CB1FB4593C005D3DBA /* SystemConfiguration.framework */; };
-		3802EF24225CC11C0065A2E1 /* CoreML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3802EF23225CC11C0065A2E1 /* CoreML.framework */; };
-		7021FD7D21E62CFD00938D67 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7021FD7C21E62CFD00938D67 /* Accelerate.framework */; };
+		782C8018238D4C92002C6770 /* AgoraRtcKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 782C8016238D4C6A002C6770 /* AgoraRtcKit.framework */; };
+		782C8019238D4C92002C6770 /* AgoraRtcKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 782C8016238D4C6A002C6770 /* AgoraRtcKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		782C801A238D4C92002C6770 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				782C8019238D4C92002C6770 /* AgoraRtcKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		074526E41E9CAB040054D2D4 /* Agora Video Source.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Agora Video Source.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -37,7 +42,6 @@
 		074526F31E9CAB040054D2D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		074526FA1E9CAD550054D2D4 /* AppID.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppID.swift; sourceTree = "<group>"; };
 		074526FB1E9CAD550054D2D4 /* VideoChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoChatViewController.swift; sourceTree = "<group>"; };
-		074526FE1E9CAE2A0054D2D4 /* AgoraRtcEngineKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AgoraRtcEngineKit.framework; path = libs/AgoraRtcEngineKit.framework; sourceTree = SOURCE_ROOT; };
 		074527001E9CAE4B0054D2D4 /* Agora Video Source-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Agora Video Source-Bridging-Header.h"; path = "VideoChat/Agora Video Source-Bridging-Header.h"; sourceTree = "<group>"; };
 		074527051E9CAE8E0054D2D4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		074527071E9CAE920054D2D4 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
@@ -51,6 +55,7 @@
 		0F2747CB1FB4593C005D3DBA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		3802EF23225CC11C0065A2E1 /* CoreML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreML.framework; path = System/Library/Frameworks/CoreML.framework; sourceTree = SDKROOT; };
 		7021FD7C21E62CFD00938D67 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		782C8016238D4C6A002C6770 /* AgoraRtcKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AgoraRtcKit.framework; path = "Agora Video Source/AgoraRtcKit.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,17 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3802EF24225CC11C0065A2E1 /* CoreML.framework in Frameworks */,
-				7021FD7D21E62CFD00938D67 /* Accelerate.framework in Frameworks */,
-				0F2747CC1FB45944005D3DBA /* SystemConfiguration.framework in Frameworks */,
-				074527121E9CAEB10054D2D4 /* libc++.tbd in Frameworks */,
-				074527101E9CAEA90054D2D4 /* CoreMedia.framework in Frameworks */,
-				0745270E1E9CAEA50054D2D4 /* CoreTelephony.framework in Frameworks */,
-				0745270C1E9CAE9D0054D2D4 /* AudioToolbox.framework in Frameworks */,
-				0745270A1E9CAE980054D2D4 /* libresolv.tbd in Frameworks */,
-				074527081E9CAE920054D2D4 /* VideoToolbox.framework in Frameworks */,
-				074527061E9CAE8E0054D2D4 /* AVFoundation.framework in Frameworks */,
-				074526FF1E9CAE2A0054D2D4 /* AgoraRtcEngineKit.framework in Frameworks */,
+				782C8018238D4C92002C6770 /* AgoraRtcKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +93,6 @@
 				074526F91E9CAD550054D2D4 /* VideoChat */,
 				074527131E9CB21B0054D2D4 /* VideoSource */,
 				074526EB1E9CAB040054D2D4 /* Main.storyboard */,
-				074526FE1E9CAE2A0054D2D4 /* AgoraRtcEngineKit.framework */,
 				074526EE1E9CAB040054D2D4 /* Assets.xcassets */,
 				074526F01E9CAB040054D2D4 /* LaunchScreen.storyboard */,
 				074527001E9CAE4B0054D2D4 /* Agora Video Source-Bridging-Header.h */,
@@ -120,6 +114,7 @@
 		074527041E9CAE8E0054D2D4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				782C8016238D4C6A002C6770 /* AgoraRtcKit.framework */,
 				3802EF23225CC11C0065A2E1 /* CoreML.framework */,
 				7021FD7C21E62CFD00938D67 /* Accelerate.framework */,
 				0F2747CB1FB4593C005D3DBA /* SystemConfiguration.framework */,
@@ -154,6 +149,7 @@
 				074526E01E9CAB040054D2D4 /* Sources */,
 				074526E11E9CAB040054D2D4 /* Frameworks */,
 				074526E21E9CAB040054D2D4 /* Resources */,
+				782C801A238D4C92002C6770 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -176,7 +172,7 @@
 				TargetAttributes = {
 					074526E31E9CAB040054D2D4 = {
 						CreatedOnToolsVersion = 8.3.1;
-						DevelopmentTeam = 48TB6ZZL5S;
+						DevelopmentTeam = SW3CA7M752;
 						LastSwiftMigration = 0830;
 						ProvisioningStyle = Manual;
 						SystemCapabilities = {
@@ -371,19 +367,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Yuhua Gong (TH5SJ72C94)";
-				DEVELOPMENT_TEAM = 48TB6ZZL5S;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = SW3CA7M752;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/libs",
+					"$(PROJECT_DIR)/Agora\\ Video\\ Source",
+					"$(PROJECT_DIR)/Agora\\ Video\\ Source",
 				);
 				INFOPLIST_FILE = "Agora Video Source/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.agora.Agora-Video-Source";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = AgoraIODev2017;
+				PROVISIONING_PROFILE_SPECIFIER = AgoraAppsDevProfile;
 				SWIFT_OBJC_BRIDGING_HEADER = "Agora Video Source/VideoChat/Agora Video Source-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
@@ -395,19 +393,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Agora Lab, Inc. (48TB6ZZL5S)";
-				DEVELOPMENT_TEAM = 48TB6ZZL5S;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = SW3CA7M752;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/libs",
+					"$(PROJECT_DIR)/Agora\\ Video\\ Source",
+					"$(PROJECT_DIR)/Agora\\ Video\\ Source",
 				);
 				INFOPLIST_FILE = "Agora Video Source/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.agora.Agora-Video-Source";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = AgoraIODistribution;
+				PROVISIONING_PROFILE_SPECIFIER = AgoraAppsDevProfile;
 				SWIFT_OBJC_BRIDGING_HEADER = "Agora Video Source/VideoChat/Agora Video Source-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 			};

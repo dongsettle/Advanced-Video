@@ -7,8 +7,8 @@
 //
 
 #import "AgoraMediaDataPlugin.h"
-#import <AgoraRtcEngineKit/IAgoraRtcEngine.h>
-#import <AgoraRtcEngineKit/IAgoraMediaEngine.h>
+#import <AgoraRtcKit/IAgoraRtcEngine.h>
+#import <AgoraRtcKit/IAgoraMediaEngine.h>
 
 typedef NS_ENUM(int, ObserverType) {
     ObserverTypeVideo,

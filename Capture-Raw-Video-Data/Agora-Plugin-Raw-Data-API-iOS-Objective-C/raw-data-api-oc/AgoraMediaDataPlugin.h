@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <AgoraRtcEngineKit/AgoraRtcEngineKit.h>
+#import <AgoraRtcKit/AgoraRtcEngineKit.h>
 #import "AgoraVideoRawData.h"
 #import "AgoraAudioRawData.h"
 
